@@ -16,7 +16,7 @@ _The purpose of this project website is to express the skills and capabilities w
 
 ## Site Capabilities
 ***
-_It is intended for this website to be easily accessible across a range of devices by the utilisation of **HTML & CSS**._
+_It is intended for this website to be easily accessible across a range of devices by the utilisation of **HTML, CSS & BOOTSTRAP**._
  </br>
   </br>
    </br>
