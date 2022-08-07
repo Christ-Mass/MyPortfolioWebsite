@@ -148,6 +148,52 @@
   </section>
 
   <section id="contact"> <!-- Contact content with bg image BELOW. -->
+    <div class="grid text-center bg-image p-10" style="background-image: url('img/BgContact.jpg'); height: 100vh;">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div id="header-inner" class="text-white" style="width: 700px;">
+            <h2>CONTACT ME:</h2>
+
+            <br /> <!-- Formspree simple contact service -->
+
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+              <fieldset id="fs-frm-inputs">
+                <div class="row">
+                  <div class=" col-md-5 ">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                  </div> 
+                    <br /><br />
+                  <div class=" col-md-6 ms-auto">
+                    <label for="email-address">Email Address:</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address" required="">
+                  </div>
+                </div>
+                  <br />
+                <div class="justify-content-md-center">
+                  <p><label for="message">Your Message:</label></p>
+                  <textarea cols="50" rows="5" name="message" id="message" placeholder="" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </div>
+              </fieldset>
+              <input class="" type="submit" value="Submit">
+            </form>
+
+            <br /><br />
+            
+          <div class="col dl-cv"> <!-- Button link to my CV BELOW. -->
+            <h5 class="">Download My CV...</h5>
+            <a
+              class=" btn-outline-light btn-lg m-2 "
+              style="border-color: rgba(195, 116, 12, 0); background-color: rgba(0, 0, 0, 2);"
+              href="assets/CHRIS FORDE CURICULUM VITAE.pdf"
+              target="_blank"
+              role="button">
+            <i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="project"> <!-- Project content with bg image BELOW. -->
