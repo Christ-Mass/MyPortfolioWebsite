@@ -10,6 +10,7 @@ _The purpose of this project website is to express the skills and capabilities w
 ***
 * **HTML5**
 * **CSS**
+* **BOOTSTRAP**
  </br>
   </br>
    </br>
